@@ -34,7 +34,7 @@ preserve=yes
 hostmakedepends="tar xz bc elfutils-devel flex gmp-devel kmod libmpc-devel
  pkg-config openssl-devel perl uboot-mkimage cpio pahole python3 zstd"
 
-_kernver="${version/rc/0-rc}_${revision}"
+_kernver="${version/rc/0-rc}-zen1_${revision}"
 triggers="kernel-hooks"
 kernel_hooks_version="${_kernver}"
 
